@@ -9,7 +9,6 @@
 extern mod std;
 extern mod extra;
 extern mod geom = "rust-geom";
-extern mod layers = "rust-layers";
 extern mod opengles = "rust-opengles";
 #[cfg(not(target_os = "android"))]
 extern mod glfw;
